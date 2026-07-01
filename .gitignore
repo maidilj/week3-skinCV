@@ -13,3 +13,10 @@ data/
 *.pth
 !models/best.pth
 .ipynb_checkpoints/
+# secrets — never commit tokens/keys
+kaggle_token
+kaggle.json
+*.token
+.env
+.secrets/
+.kaggle/
