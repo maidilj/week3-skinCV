@@ -1,19 +1,10 @@
 # week3-skinCV
+Transfer-learning classifier for the HAM10000 skin-lesion dataset (7 classes),
+with a static portfolio site and a FastAPI/Docker inference backend.
 
-A personal portfolio site built with plain HTML/CSS and a little vanilla JS — no frameworks, no build step.
+- `notebooks/` — data prep, training (ResNet-50 + ViT-B/16, wandb-tracked), and
+  a research comparison of backbones, strategies, and augmentation.
+- `api/` — FastAPI `/predict` serving the exported model.
+- `public/` — static showcase + live demo, deployed to GitHub Pages.
 
-## Structure
-
-Site files live in `public/`.
-
-## Deploy
-
-Push to `main`; GitHub Actions publishes to GitHub Pages.
-
-## Develop
-
-Open `public/index.html` in a browser, or serve locally:
-
-```bash
-python -m http.server --directory public
-```
+**Educational demo — not a medical diagnosis. Consult a dermatologist.**

@@ -1,7 +1,15 @@
-# Dependencies
+# node / OS
 node_modules/
-
-# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# ml artifacts
+wandb/
+data/
+*.pth
+!models/best.pth
+.ipynb_checkpoints/

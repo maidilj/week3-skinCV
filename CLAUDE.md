@@ -5,3 +5,4 @@ Deploy: push to main, GitHub Actions publishes to GitHub Pages.
 - Site files live in public/.
 - Section ids: #dashboard #model-info #performance #contact-info
 - Keep it responsive; no horizontal scroll at 375px.
+- Demo is an educational skin-lesion classifier, not a medical diagnosis; always show that disclaimer.

@@ -1,0 +1,2 @@
+# TODO (Phase 6): GitHub Pages workflow — on push to main, publish public/ to
+# GitHub Pages. Left inert (no `on:`/`jobs:`) so it does not run until Phase 6.
